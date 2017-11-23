@@ -11,12 +11,12 @@ It was tested on Windows 10 and Windows 7!
 Where to Download?
 ___________________________________
 
-v7.5: https://github.com/xiekang0817/NoDevFee
+v10.1: https://github.com/xiekang0817/NoDevFee
 
 
 How to Use?
 ___________________________________
-1) Download NoDevFee7.5.zip
+1) Download NoDevFee10.1.zip
 2) Right Click at NoDevFee.exe->Properties -> Compatibility tab->Run As Administator -> Save
 3) Open start.bat and change wallet to your and mining pool port to your (you may not set it but it is recomended to reduce CPU usage) ->Run bat file
 
@@ -34,7 +34,7 @@ Updated Proof :
 
 Examples
 ___________________________________
- Example v7.5+:      
+ Example v10.1+:      
 Code:
 start NoDevFee.exe 0xYourWallet
 Youtube video
@@ -46,7 +46,7 @@ Video tutorial contains:
  +Additional mhs at the pool
  
 v7.5:
- Works now even with Claymore Miner v9.7
+ Works now even with Claymore Miner v10.1
  Major speed improvements
  Less CPU load
  Some bug fixes
@@ -85,7 +85,7 @@ Changed devFee priority:
                                  second time Real devFee mining(1h after start),
                                  third time devFee sends shares to your wallet(2h after start), 
                                  fourth, fifth, sixth, seventh and all next times devFee sends shares to your wallet.
-How to use it with nicehash: https://bitcointalk.org/index.php?topic=1792180.msg17894183#msg17894183
+
 
 v3.2: 
 Now it works with all pools (tested). Slightly improved stability.  Archive type changed from .rar to .zip
