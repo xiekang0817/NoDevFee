@@ -11,12 +11,12 @@ It was tested on Windows 10 and Windows 7!
 Where to Download?
 ___________________________________
 
-v10.1: https://github.com/xiekang0817/NoDevFee
+v10.2: https://github.com/xiekang0817/NoDevFee
 
 
 How to Use?
 ___________________________________
-1) Download NoDevFee10.1.zip
+1) Download NoDevFee10.2.zip
 2) Right Click at NoDevFee.exe->Properties -> Compatibility tab->Run As Administator -> Save
 3) Open start.bat and change wallet to your and mining pool port to your (you may not set it but it is recomended to reduce CPU usage) ->Run bat file
 
@@ -34,9 +34,10 @@ Updated Proof :
 
 Examples
 ___________________________________
- Example v10.1+:      
+ Example v10.2+:      
 Code:
-start NoDevFee.exe 0xYourWallet
+start NoDevFee 0x8ea66b8c38738802224734604af74edb5bbccb5c
+start EthDcrMiner64 -epool eth.f2pool.com:8008 -ewal 0x8ea66b8c38738802224734604af74edb5bbccb5c -eworker eth200 -epsw x -mode 1
 Youtube video
 ___________________________________
 
